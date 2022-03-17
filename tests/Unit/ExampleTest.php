@@ -24,6 +24,6 @@ class ExampleTest extends TestCase
             'email' => "test@mail.com",
             'password' => "testpassword"
         ]);
-        $this->assertEquals('test@mail.com', $user->email);
+        $this->assertEquals('Test User', $user->email);
     }
 }
