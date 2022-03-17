@@ -46,9 +46,7 @@ jobs:
 
       # run tests with phpunit
       - run:
-          name: "Run Unit Tests"
-          command: ./vendor/bin/phpunit tests/Unit
-      - run:
-          name: "Run Feature Tests"
-          command: ./vendor/bin/phpunit tests/Feature
+          name: "Run Tests"
+          command: ./vendor/bin/phpunit
 
+     
